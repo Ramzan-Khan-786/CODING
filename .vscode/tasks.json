@@ -1,0 +1,56 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Check Files",
+      "type": "shell",
+      "command": "if not exist input.txt (type nul > input.txt) && if not exist output.txt (type nul > output.txt)",
+      "problemMatcher": [],
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "label": "Compile and Run",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "\"${file}\"",
+        "-o",
+        "output.exe",
+        "&&",
+        ".\\output.exe",
+        "<",
+        "input.txt",
+        ">",
+        "output.txt"
+      ],
+      "dependsOn": "Check Files",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": false,
+        "reveal": "never",
+        // "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": {
+        "owner": "cpp",
+        "fileLocation": [
+          "relative",
+          "${workspaceFolder}"
+        ],
+        "pattern": {
+          "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "severity": 4,
+          "message": 5
+        }
+      }
+    }
+  ]
+}

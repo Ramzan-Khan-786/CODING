@@ -1,0 +1,19 @@
+{
+    
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "terminal.integrated.cursorBlinking": false,
+    "workbench.editor.autoLockGroups": {
+        "terminalEditor": false
+    },
+    "workbench.editor.focusRecentEditorAfterClose": true,
+    "terminal.integrated.sendKeybindingsToShell": false,
+    "accessibility.hideAccessibleView": false,
+    "workbench.settings.useSplitJSON": false,
+    "C_Cpp.loggingLevel": "Error",
+    "workbench.panel.opensMaximized": "never"
+}
