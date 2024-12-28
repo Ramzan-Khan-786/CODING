@@ -1,5 +1,5 @@
-#include<iostream>
-#include <bitset>
+// Problem Link: https://leetcode.com/problems/number-of-1-bits/
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){

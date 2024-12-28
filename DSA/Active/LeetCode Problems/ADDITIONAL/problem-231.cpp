@@ -1,30 +1,18 @@
-#include <iostream>
-#include <math.h>
+// Url: https://leetcode.com/problems/power-of-two/
+#include <bits/stdc++.h>
 using namespace std;
-bool isPow(int n)
-{
-   
-   
-}
-int main()
-{
-    int n = 16;
-    int m = 1;
-    int i=0;
-    cout<<pow(-2,z)
-    // cout<<i<<endl;
-    // if (n<=0){
-    //     cout<<"false"<<endl;
-    // }
-    // while(m<n ||i<=30){
-    //     if(m==n){
-    //         cout<<"true"<<endl;
-    //     }
-    //     m=pow(2,i);
-    //     i++;
 
-    // }
-    // cout<<i<<endl;
-    // cout<<m<<endl;
+bool isPow(int n) {
+    if (n <= 0) return false;
+    return (n & (n - 1)) == 0;
+}
+
+int main() {
+    int n = 16;
+    if (isPow(n)) {
+        cout << "true" << endl;
+    } else {
+        cout << "false" << endl;
+    }
     return 0;
 }

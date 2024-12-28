@@ -4,7 +4,8 @@
     "code-runner.runInTerminal": true,
     "code-runner.saveAllFilesBeforeRun": true,
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "ostream": "cpp"
     },
     "terminal.integrated.cursorBlinking": false,
     "workbench.editor.autoLockGroups": {

@@ -1,6 +1,5 @@
-#include<iostream>
-#include<vector>
-#include<math.h>
+// Problem Link: https://leetcode.com/problems/move-zeroes/
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {

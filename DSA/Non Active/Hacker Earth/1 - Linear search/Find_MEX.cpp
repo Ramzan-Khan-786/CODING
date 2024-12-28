@@ -1,7 +1,5 @@
 // https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/algorithm/find-mex-62916c25/
-#include<iostream>
-#include<vector>
-#include<math.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 vector<int> getMEX(vector<int> arr) {
@@ -12,8 +10,9 @@ vector<int> getMEX(vector<int> arr) {
         for(int val=0;val<=i;val++){
             for(int j=0;j<=i;j++){
                 if(val==arr[j]){
-                    ans[ians]=val;jutyufgrf
+                    ans.push_back(val);
                     break;
+                    return ans;
                 }
 
             }

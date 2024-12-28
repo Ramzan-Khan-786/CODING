@@ -1,5 +1,5 @@
-#include <iostream>
-#include<vector>
+//link: https://leetcode.com/problems/find-peak-element/
+#include <bits/stdc++.h>
 using namespace std;
 
 class Solution

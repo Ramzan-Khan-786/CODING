@@ -1,6 +1,5 @@
-#include<iostream>
-#include<vector>
-#include<math.h>
+// URL: https://leetcode.com/problems/rotate-array/
+#include<bits/stdc++.h>
 
 using namespace std;
 class Solution {

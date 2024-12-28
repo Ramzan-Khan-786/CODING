@@ -1,6 +1,5 @@
-#include<iostream>
-#include<vector>
-#include<math.h>
+// Problem Link: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {

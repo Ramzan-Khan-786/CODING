@@ -1,3 +1,5 @@
+//leetcode problem 1
+//link: https://leetcode.com/problems/two-sum/
 #include<iostream>
 #include<vector>
 using namespace std;

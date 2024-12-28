@@ -1,5 +1,5 @@
-#include<iostream>
-#include<vector>
+// URL: https://leetcode.com/problems/unique-number-of-occurrences/
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {

@@ -1,6 +1,5 @@
-#include <iostream>
-#include <vector>
-#include <math.h>
+// Problem Link: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+#include <bits/stdc++.h>
 using namespace std;
 class Solution
 {

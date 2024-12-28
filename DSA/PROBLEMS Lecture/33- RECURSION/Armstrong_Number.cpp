@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 int digits(int n) {
@@ -10,12 +10,12 @@ int digits(int n) {
     return count;
 }
 
-double pow(int base, int index) {
-    if (index == 0) return 1;
-    if (index < 0) return 1 / pow(base, -index);
-    if (base < 0 && index % 2 == 0) return pow(-base, index);
-    if (base < 0) return -pow(-base, index);
-    return base * pow(base, index - 1);
+int pow(int base, int index) {
+    int result = 1;
+    for (int i = 0; i < index; i++) {
+        result *= base;
+    }
+    return result;
 }
 
 int isArmstrong(int base, int index) {

@@ -1,5 +1,5 @@
-#include<iostream>
-#include<vector>
+// Problem Link: https://leetcode.com/problems/peak-index-in-a-mountain-array/
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {

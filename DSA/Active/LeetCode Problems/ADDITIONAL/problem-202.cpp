@@ -1,5 +1,5 @@
-#include<iostream>
-#include<math.h>
+// URL: https://leetcode.com/problems/happy-number/
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {
@@ -31,7 +31,7 @@ int main()
     int n = 13;
 
     Solution first;
-    cout << first.sqsum(n);
+    cout << first.isHappy(n);
 
     return 0;
 }

@@ -1,7 +1,0 @@
-{
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
-    "code-runner.ignoreSelection": true,
-    "code-runner.runInTerminal": true,
-    "code-runner.saveFileBeforeRun": true
-}

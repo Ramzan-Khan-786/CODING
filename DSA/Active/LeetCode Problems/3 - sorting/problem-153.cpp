@@ -1,7 +1,5 @@
-#include<iostream>
-#include<vector>
-#include<math.h>
-#include<algorithm>
+// Problem Link: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {

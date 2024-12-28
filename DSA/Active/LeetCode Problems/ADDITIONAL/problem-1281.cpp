@@ -1,4 +1,5 @@
-#include<iostream>
+// Problem Link: https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {

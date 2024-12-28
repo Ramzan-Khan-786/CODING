@@ -1,4 +1,5 @@
-#include<iostream>
+// URL: https://leetcode.com/problems/perfect-number/
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {
