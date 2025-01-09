@@ -137,6 +137,5 @@ int main() {
     } else {
         cout << "The list is empty." << endl;
     }
-
     return 0;
 }

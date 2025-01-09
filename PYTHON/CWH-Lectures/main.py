@@ -204,27 +204,213 @@
 
 # break and continue statement
 
-i=0
-while i<10:
-    if i==5:
-        continue #out of itorations
-    elif i==8:
-        break #out of loop
-    print(i)
-    i=i+1
-else:
-    print("else out of loop")
+# i=0
+# while i<10:
+#     if i==5:
+#         continue #out of itorations
+#     elif i==8:
+#         break #out of loop
+#     print(i)
+#     i=i+1
+# else:
+#     print("else out of loop")
 
 # functions
     # 1.function types
-    '''
+'''
     1. Built-in functions
     2. User-defined functions
-    '''
+'''
     # 2. function arguments
-    ''' 
+''' 
     1. Default arguments
     2. Required arguments
     3. Keyword arguments
     4. Variable-length arguments
-    '''
+'''
+
+# list
+# list methods
+'''
+    
+    1. append()
+    2. clear()
+    3. copy()
+    4. count()
+    5. extend()
+    6. index() -> returns first occuring index
+    7. insert()
+    8. pop()
+    9. remove()
+    10. reverse()
+    11. sort()--> 
+    12.size()--> 
+    
+'''
+
+# tuple
+# tuple methods
+'''
+    1. count()
+    2. index()
+    3. insert()
+    4. pop()
+    5. remove()
+    6. reverse()
+    7. sort()
+'''
+
+# difference between list and tuple
+# syntax difference
+# list-> []
+# tuple-> ()
+
+# conversion between list and tuple
+# list-> tuple
+    #  list_name = tuple(list_name)
+# tuple-> list
+    #  list_name = list(tuple_name)
+
+
+# fstrings
+# syntax
+# f"string"
+
+# fstring methods
+'''
+    1. capitalize()
+    2. casefold()
+    3. center()
+    4. count()
+    5. encode()
+    6. endswith()
+    7. expandtabs()
+    8. find()
+    9. format()
+    10. format_map()
+    11. index()
+    12. isalnum()
+    13. isalpha()
+    14. isascii()
+    15. isdecimal()
+    16. isdigit()
+    17. isidentifier()
+    18. islower()
+    19. isnumeric() 
+    20. isprintable()
+    21. isspace()
+    22. istitle()
+    23. isupper()
+    24. join()
+    25. ljust()
+    26. lower()
+    27. lstrip()
+    28. maketrans()
+    29. partition()
+    30. replace()
+    31. rfind()
+    32. rindex()
+    33. rjust()
+    34. rpartition()
+    35. rsplit()
+    36. rstrip()
+    37. split()
+    38. splitlines()
+    39. startswith()
+    40. strip()
+    41. swapcase()
+    42. title()
+    43. translate()
+    44. upper()
+    45. zfill()
+'''
+
+# docstring
+# syntax
+# """string"""
+
+# docstring methods
+'''
+    1. capitalize()
+    2. casefold()
+    3. center()
+    4. count()
+    5. encode()
+    6. endswith()
+    7. expandtabs()
+    8. find()
+    9. format()
+    10. format_map()
+    11. index()
+    12. isalnum()
+    13. isalpha()
+    14. isascii()
+    15. isdecimal()
+    16. isdigit()
+    17. isidentifier()
+    18. islower()
+    19. isnumeric()
+    20. isprintable()
+    21. isspace()
+    22. istitle()
+    23. isupper()
+    24. join()
+    25. ljust()
+    26. lower()
+    27. lstrip()
+    28. maketrans()
+    29. partition()
+    30. replace()
+    31. rfind()
+    32. rindex()
+    33. rjust()
+    34. rpartition()
+    35. rsplit()
+    36. rstrip()
+    37. split()
+    38. splitlines()
+    39. startswith()    
+    40. strip()
+    41. swapcase()
+    42. title()
+    43. translate()
+    44. upper()
+    45. zfill()
+'''
+
+# PEP 8
+# PEP 8 is a set of guidelines for writing code in Python. 
+# it was written by Guido van Rossum in 2001.
+
+# The Zen of Python
+# The Zen of Python is a set of principles for writing Python code. 
+# it was written by Tim Peters in 2001.
+# use "import this" in repl
+
+
+# sets
+# set methods
+'''
+    0.delete()
+    1. add()
+    2. clear()
+    3. copy()
+    4. difference()
+    5. difference_update()
+    6. discard()
+    7. intersection()
+    8. intersection_update()
+    9. isdisjoint()
+    10. union()
+    11. update()
+    12. symmetric_difference()
+    13. symmetric_difference_update()
+    14. issubset()
+    15. issuperset()
+    16. pop()
+    17. remove()
+    18. update()
+
+''' 
+
+# dictionary
