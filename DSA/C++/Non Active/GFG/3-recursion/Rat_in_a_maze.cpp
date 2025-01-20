@@ -70,6 +70,7 @@ int main() {
     };
 
     vector<string> result = obj.findPath(maze);
+    cout << "Possible Paths:"<< result.size() << endl;
     if (result.empty()) {
         cout << "No path found" << endl;
     } else {
