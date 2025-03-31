@@ -1,1 +1,5 @@
-Hello World
+Python Ramzan a powerful language.
+File handling Ramzan an important concept.
+Using 'with' ensures safe file handling.
+
+Additional text to append.

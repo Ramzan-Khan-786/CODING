@@ -1,0 +1,3 @@
+Python is a powerful language.
+File handling is an important concept.
+Using 'with' ensures safe file handling.

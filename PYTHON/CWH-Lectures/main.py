@@ -30,6 +30,8 @@
 # print("hello\'world")
 # print("hello\"world")
 
+
+
 # # variables
 # a=10
 # b="hello"
@@ -42,6 +44,8 @@
 # print(type(c))
 # print(type(d))
 # print(type(e))
+
+
 # # operators
 # a=10
 # b=20
@@ -86,6 +90,7 @@
 # a=input("Enter your name: ")
 # print("Hello",a)
 
+
 # # string sclicing operation
 # a = "hello world"
 # print(a[0:5])
@@ -95,6 +100,7 @@
 # print(a[0::2])
 # print(a[::2])
 # print(a[::-1])
+
 
 # # string methods
 # a="hello world"
@@ -141,6 +147,8 @@
 # print(a.translate({97: 105}))
 # print(a.zfill(20))
 
+
+
 # # if-elif-else ladder
 # a = 10
 # b = 20
@@ -163,6 +171,8 @@
 #         print("a is 20")
 #     case _:
 #         print("a is neither 10 nor 20")
+
+
 
 # # for loop
 # a=0;
@@ -378,7 +388,7 @@
     45. zfill()
 '''
 
-# PEP 8
+# PEP 8(Python Enhancement Proposal 8)
 # PEP 8 is a set of guidelines for writing code in Python. 
 # it was written by Guido van Rossum in 2001.
 
@@ -414,3 +424,19 @@
 ''' 
 
 # dictionary
+# dictionary methods    
+'''
+    1. clear()
+    2. copy()
+    3. fromkeys()    
+    4. get()
+    5. items()
+    6. keys()    
+    7. pop()
+    8. popitem()
+    9. setdefault()
+    10. update()    
+    11. values()
+''' 
+
+
